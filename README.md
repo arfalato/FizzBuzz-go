@@ -5,11 +5,11 @@ But for multiples of three print “Fizz” instead of the number and for the mu
 For numbers which are multiples of both three and five print “FizzBuzz”.
 
 
-- Run app  
+- Build app  
 ```
 docker build . -t fizzbuzz
 ``` 
-and
+and Run  
 ```
 docker run --rm fizzbuzz
 ```
