@@ -7,8 +7,12 @@ For numbers which are multiples of both three and five print “FizzBuzz”.
 
 - Run app  
 ```
-go run FizzBuzz.go
+docker build . -t fizzbuzz
 ``` 
+and
+```
+docker run --rm fizzbuzz
+```
 output:   
 
 ```
